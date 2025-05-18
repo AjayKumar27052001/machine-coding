@@ -4,35 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GenerateTable in ZigZag</title>
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <form onsubmit="generateTable(e)">
+    <form onsubmit="generateTable(event)">
       <label for="rows">Number of Rows:</label>
       <input
         type="number"
         id="rows"
-        value="1"
+        value="7"
         name="rows"
         required
       /><br /><br />
       <label for="cols">Number of Columns:</label>
-      <input type="number" id="cols" value="1" name="cols" required />
+      <input type="number" id="cols" value="8" name="cols" required />
       <br /><br />
 
       <button type="submit">Submit</button>
     </form>
-    <table>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>2</td>
-        <td>3</td>
-      </tr>
-    </table>
+    <div id="tableContainer"></div>
   </body>
   <script src="index.js"></script>
 </html>
