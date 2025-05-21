@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="accordion-container">
+      <div class="accordion-item" id="item1">
+        <div class="accordion-button-header">
+          <div class="accordion-header">Item1 header</div>
+          <button class="accordion-button" onclick="accordionHandler('item1')">
+            Item1 button
+          </button>
+        </div>
+
+        <div class="accordion-content">content of item1</div>
+      </div>
+
+      <div class="accordion-item" id="item2">
+        <div class="accordion-button-header">
+          <div class="accordion-header">Item2 header</div>
+          <button class="accordion-button" onclick="accordionHandler('item2')">
+            Item2 button
+          </button>
+        </div>
+        <div class="accordion-content">content of item2</div>
+      </div>
+
+      <div class="accordion-item" id="item3">
+        <div class="accordion-button-header">
+          <div class="accordion-header">Item3 header</div>
+          <button class="accordion-button" onclick="accordionHandler('item3')">
+            Item3 button
+          </button>
+        </div>
+        <div class="accordion-content">content of item3</div>
+      </div>
+    </div>
+  </body>
+
+  <script src="index.js"></script>
+</html>
