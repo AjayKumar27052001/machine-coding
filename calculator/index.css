@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.calculator-indexes {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 7px;
+  padding: 7px;
+  border: 2px solid black;
+}
+.each-index {
+  cursor: pointer;
+  padding: 4px;
+  width: 50px;
+  height: 35px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  background-color: hsl(0, 0%, 30%);
+}
+.display-input {
+  cursor: not-allowed;
+  font-size: 10px;
+  font-weight: 600;
+  height: 50px;
+}
