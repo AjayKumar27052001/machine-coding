@@ -51,14 +51,13 @@ header {
   margin-right: 40px;
 }
 .navigation a {
-  position: relative;
   margin-left: 30px;
   font-size: 1em;
+  position: relative;
   color: rgb(4, 13, 18);
   font-weight: 500;
   text-decoration: none;
 }
-
 .navigation a::after {
   position: absolute;
   bottom: 0px;
@@ -169,7 +168,7 @@ header {
   top: 50%;
   color: black;
 }
-.input-box input:hover ~ label,
+.input-box:hover label,
 .input-box input:valid ~ label {
   top: 45%;
 }
